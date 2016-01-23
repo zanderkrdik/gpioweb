@@ -1,0 +1,5 @@
+/deploy
+/build
+/node_modules
+grunt_ssh_config.json
+.vscode

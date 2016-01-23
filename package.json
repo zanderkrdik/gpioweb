@@ -1,0 +1,26 @@
+{
+  "name": "gpioweb",
+  "version": "0.0.1",
+  "description": "A NodeJS, Raspberry Pi GPIO Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "zander k'rdik",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-uglify": "^0.10.0",
+    "grunt-exec": "^0.4.6",
+    "grunt-ssh": "^0.12.8"
+  },
+  "dependencies": {
+    "epoll": "^0.1.16",
+    "rpi-gpio": "^0.7.0"
+  },
+  "repository": "zanderkrdik/gpioweb", 
+  "private": true
+}
